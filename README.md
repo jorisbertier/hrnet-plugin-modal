@@ -1,8 +1,8 @@
-## hrnet-plugin-modal
+# hrnet-plugin-modal
 
 React plugin to easily display a Modal with text
 
-## Install Plugin
+# Install Plugin
 
 You can install this plugin via npm
 
@@ -10,16 +10,16 @@ You can install this plugin via npm
 npm install hrnet-plugin-modal
 ```
 
-## Modal Component
+# Modal Component
 
-# Properties
+## Properties
 
 | Prop          | Type    | Description                            |
 |---------------|---------|----------------------------------------|
 | `text`        | String  | Display the title into the modal       |
 | `closeModal`  | Boolean | Callback to close the modal component  |
 
-## Utilisation
+# Use Modal
 
 ```jsx
 import { Modal } from "hrnet-plugin-modal";
