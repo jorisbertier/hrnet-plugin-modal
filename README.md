@@ -38,6 +38,16 @@ function App() {
 export default App;
 ```
 
+# Version
+
+To run this project, we recommend using Node.js version 18.x.x or higher.
+
+You can check your current Node.js version by running:
+
+```sh
+node -v
+```
+
 # License
 
 This component is distributed under MIT license.
