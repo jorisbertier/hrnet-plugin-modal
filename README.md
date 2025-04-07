@@ -36,3 +36,8 @@ function App() {
 }
 
 export default App;
+```
+
+# License
+
+This component is distributed under MIT license.

@@ -36,5 +36,14 @@
     "build": "rollup -c",
     "dev": "vite",
     "lint": "eslint ."
-  }
+  },
+  "description": "A plugin modal for HRnet project that displays a modal window for user interactions.",
+  "keywords": [
+    "modal",
+    "react",
+    "plugin",
+    "hrnet"
+  ],
+  "author": "Joris Bertier",
+  "license": "MIT"
 }
