@@ -9,15 +9,21 @@ You can install this plugin via npm
 ```sh
 npm install hrnet-plugin-modal
 ```
+## Prérequis
+
+- React 17.x ou plus
+- Node.js ≥ 18.x
+- npm ≥ 7.x
 
 # Modal Component
 
 ## Properties
 
-| Prop          | Type    | Description                            |
-|---------------|---------|----------------------------------------|
-| `text`        | String  | Display the title into the modal       |
-| `closeModal`  | Boolean | Callback to close the modal component  |
+| Prop          | Type    | Description                                |
+|---------------|---------|--------------------------------------------|
+| `text`        | String  | Display the title into the modal           |
+| `onClose`     | Function | Callback executed when the modal is closed |
+| `isOpen`      | Boolean | Control display of the modal               |
 
 # Use Modal
 
@@ -26,11 +32,11 @@ import { Modal } from "hrnet-plugin-modal";
 
 function App() {
 
-  const [ modalIsOpen, setModalIsOpen] = useState(false);
+   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div>
-      <Modal text={'This is a text dialog'} closeModal={() => setModalIsOpen(true)}/>
+      <Modal isOpen={isOpen} text={'This is a text dialog'} closeModal={() => setIsOpen(false)}/>
     </div>
   );
 }
@@ -47,6 +53,15 @@ You can check your current Node.js version by running:
 ```sh
 node -v
 ```
+
+## Contribuer
+
+1. Fork repository
+2. `npm install`  
+3. `npm run dev`  
+4. Create a branch`feature/nom-fonctionnalité`  
+5. `npm test` to run the test
+6. Open a Pull Request  
 
 # License
 
