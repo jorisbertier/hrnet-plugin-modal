@@ -1,3 +1,2 @@
-import Modal from "./components/Modal";
-export { Modal };
+import Modal from "./src/components/Modal.jsx";
 export default Modal;
