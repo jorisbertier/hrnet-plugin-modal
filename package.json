@@ -3,15 +3,16 @@
   "version": "1.0.4",
   "private": false,
   "type": "module",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
   "exports": {
-    "import": "./dist/index.js",
-    "require": "./dist/index.cjs"
+    "import": "./index.js",
+    "require": "./index.cjs"
   },
   "files": [
-    "dist"
+    "index.js",
+    "src"
   ],
   "dependencies": {
     "react": "^19.0.0",
