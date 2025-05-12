@@ -9,7 +9,7 @@ You can install this plugin via npm
 ```sh
 npm install hrnet-plugin-modal
 ```
-## Prérequis
+## Prerequisite
 
 - React 17.x ou highter
 - Node.js ≥ 18.x
@@ -54,7 +54,7 @@ You can check your current Node.js version by running:
 node -v
 ```
 
-## Contribuer
+## Contribute
 
 1. Fork repository
 2. `npm install`  
