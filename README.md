@@ -19,11 +19,11 @@ npm install hrnet-plugin-modal
 
 ## Properties
 
-| Prop          | Type    | Description                                |
-|---------------|---------|--------------------------------------------|
-| `text`        | String  | Display the title into the modal           |
+| Prop          | Type     | Description                                |
+|---------------|----------|--------------------------------------------|
+| `text`        | String   | Display the title into the modal           |
 | `onClose`     | Function | Callback executed when the modal is closed |
-| `isOpen`      | Boolean | Control display of the modal               |
+| `isOpen`      | Boolean  | Control display of the modal               |
 
 # Use Modal
 
