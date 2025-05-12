@@ -8,7 +8,7 @@
   "types": "index.d.ts",
   "exports": {
     "import": "./index.js",
-    "require": "./index.cjs"
+    "require": "./index.js"
   },
   "files": [
     "index.js",
