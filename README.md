@@ -11,7 +11,7 @@ npm install hrnet-plugin-modal
 ```
 ## Prérequis
 
-- React 17.x ou plus
+- React 17.x ou highter
 - Node.js ≥ 18.x
 - npm ≥ 7.x
 
