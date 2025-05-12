@@ -3,22 +3,19 @@
   "version": "1.0.9",
   "private": false,
   "type": "module",
-  "main": "index.js",
-  "module": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "exports": {
-    ".": {
-      "import": "./index.js",
-      "require": "./index.js"
-    }
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
   },
   "files": [
-    "index.js",
-    "src"
+    "dist"
   ],
   "dependencies": {
-    "react": "^17.0.0 || ^18.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.3",
